@@ -32,6 +32,9 @@ Make a `.gemini/skills` folder in your project and put the extracted skills fold
 
 > Create a JS console app that when receives a notification of an incoming payment, sends $0.10 USD to <hello@getalby.com>. The NWC_URL is in the .env file.
 
+<img width="699" height="496" alt="image" src="https://github.com/user-attachments/assets/66c7dd1f-54ae-4f5d-9830-dd032cfb9e1b" />
+
+
 ### Frontend Apps
 
 #### Streamer QR page with payment notifications
