@@ -1,6 +1,6 @@
 ---
-name: Alby Agent Skill
-description: Add bitcoin lightning wallet capabilities to your app using Nostr Wallet Connect (NIP-47) and LNURL. Send and receive payments, access a lightning wallet, do bitcoin to fiat currency conversions, query lightning addresses, and more.
+name: Alby Bitcoin Payments Agent Skill
+description: Add bitcoin lightning wallet capabilities to your app using Nostr Wallet Connect (NIP-47) and LNURL. Send and receive payments, handle payment notifications, fetch wallet balance and transaction list, do bitcoin to fiat currency conversions, query lightning addresses, and more.
 ---
 
 # Alby Agent Skill
