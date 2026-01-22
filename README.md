@@ -8,15 +8,9 @@ This repository contains an [agent skill](https://agentskills.io/specification) 
 
 ### 🚀 Install with single command
 
-⚠️ the below command may not work as expected. `npx skills` is very new. To be sure, use the manual installation option for now.
+⚠️ the below command may not work as expected. `npx skills` is very new. If you have problems using the skill, try manual install or create an issue to let us know.
 
-`npx skills i getAlby/alby-agent-skill`
-
-OR (for claude code)
-
-```bash
-mkdir -p .claude/skills && cd .claude/skills && wget https://github.com/getAlby/alby-agent-skill/archive/refs/heads/master.zip && unzip master.zip && rm master.zip
-```
+`npx skills add getAlby/alby-agent-skill`
 
 ### Manual Install
 
