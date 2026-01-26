@@ -6,6 +6,12 @@ The user can make a testing wallet with a single API request:
 curl -X POST https://faucet.nwc.dev?balance=10000
 ```
 
+They can also topup testing wallets by their lightning address (username part is enough):
+
+```bash
+curl -X POST https://faucet.nwc.dev/wallets/nwcxxxxxxxxxx/topup?amount=1000
+```
+
 This will create a brand new test wallet with 10000 sats. This allows the application to be tested fully end-to-end without sending real bitcoin payments.
 
 The response will be a plaintext string of the new NWC connection secret, including a randomly-generated lightning address in the lud16 parameter.
