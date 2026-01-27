@@ -12,6 +12,14 @@ Use this skill to understand how to build apps that require bitcoin lightning wa
 - [NWC Client: Interact with a wallet to do things like sending and receive payments, listen to payment notifications, fetch balance and transaction list and wallet info](./references/nwc-client/nwc-client.md)
 - [Lightning Tools: Request invoices from a lightning address, parse BOLT-11 invoices, verify a preimage for a BOLT-11 invoice, LNURL-Verify, do bitcoin <-> fiat conversions](./references/lightning-tools/lightning-tools.md)
 
+## Prefer Typescript
+
+When the user says to use "JS" or "Javascript" or "NodeJS" or something similar, use typescript unless the user explicitly says to not use typescript or the project does not support it.
+
+## Imports
+
+Do NOT import from the dist directory.
+
 ## Read the Typings
 
 Based on what functionality you require, read the relevant typings:
@@ -22,6 +30,8 @@ Based on what functionality you require, read the relevant typings:
 ## Testing Wallets
 
 If the user doesn't have a wallet yet, or needs one for development or testing, [testing wallets can be created with a single request](./references/testing-wallets.md).
+
+Testing wallets should be used for [automated testing](./references/automated-testing.md).
 
 ## Production Wallet
 
