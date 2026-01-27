@@ -36,6 +36,8 @@ Alby Agent skill has the knowledge to create dummy wallets for testing. You can 
 
 ## Example prompts
 
+> Explore more prompts in the **[Alby Sandbox](https://sandbox.albylabs.com)**
+
 ### Console Apps
 
 #### Listen to received payments and send a payment to a lightning address with USD amounts
