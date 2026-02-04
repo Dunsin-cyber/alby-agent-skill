@@ -6,20 +6,25 @@ Two packages are available depending on your framework:
 
 **Web Components (React, Vue, Angular, Solid.js, pure HTML):**
 
-```bash
-npm install @getalby/bitcoin-connect
-```
+Install the npm package `@getalby/bitcoin-connect@3`
 
 **React-specific components:**
 
-```bash
-npm install @getalby/bitcoin-connect-react
-```
+Install the npm package `@getalby/bitcoin-connect-react@3`
 
 **CDN (HTML-only, no build step):**
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@getalby/bitcoin-connect@3/dist/bundle.js"></script>
+<script src="https://esm.sh/@getalby/bitcoin-connect@3"></script>
+```
+
+or
+
+```html
+<script type="module">
+  import {launchModal} from 'https://esm.sh/@getalby/bitcoin-connect@3';
+  //...use it here
+</script>
 ```
 
 ## Key concepts
