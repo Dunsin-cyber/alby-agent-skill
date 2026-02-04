@@ -43,14 +43,13 @@ Unlike NWC, WebLN operates on sats, not millisats. (1000 millisats = 1 satoshi)
 
 ```ts
 import { init } from "@getalby/bitcoin-connect";
-// or from CDN: window.bitcoinConnect.init(...)
 
 init({
   appName: "My App",
   // optional:
   // appIcon: "https://example.com/icon.png",
   // showBalance: true,
-  // filters: ["nwc"],
+  // filters: ["nwc"], // only allow NWC wallets
 });
 ```
 
@@ -156,8 +155,9 @@ init({ appName: "My App" });
 
 ```html
 <!-- Initialize Bitcoin Connect -->
-<script>
-  window.bitcoinConnect.init({ appName: "My App" });
+<script type="module">
+  import {init} from 'https://esm.sh/@getalby/bitcoin-connect@3';
+  init({ appName: "My App" });
 </script>
 
 <!-- Connection button -->
