@@ -11,6 +11,7 @@ Use this skill to understand how to build apps that require bitcoin lightning wa
 
 - [NWC Client: Interact with a wallet to do things like sending and receive payments, listen to payment notifications, fetch balance and transaction list and wallet info](./references/nwc-client/nwc-client.md)
 - [Lightning Tools: Request invoices from a lightning address, parse BOLT-11 invoices, verify a preimage for a BOLT-11 invoice, LNURL-Verify, do bitcoin <-> fiat conversions](./references/lightning-tools/lightning-tools.md)
+- [Bitcoin Connect: Browser-only UI components for connecting wallets and accepting payments in React, Vue, or pure HTML web apps](./references/bitcoin-connect/bitcoin-connect.md)
 
 ## Prefer Typescript
 
@@ -26,6 +27,8 @@ Based on what functionality you require, read the relevant typings:
 
 - [NWC Client](./references/nwc-client/nwc.d.ts)
 - [Lightning Tools](./references/lightning-tools/index.d.ts)
+- [Bitcoin Connect](./references/bitcoin-connect/bundle.d.ts)
+- [Bitcoin Connect React](./references/bitcoin-connect/react.bundle.d.ts)
 
 ## Testing Wallets
 
