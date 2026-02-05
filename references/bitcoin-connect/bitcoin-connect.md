@@ -156,6 +156,7 @@ init({ appName: "My App" });
 // NOTE: invoice can optionally be generated after the button is clicked by
 // using the `onClick` event and updating the invoice argument in React
 // or by using setAttribute('invoice') on the bc-pay-button element.
+// the `payment` property can also be set in case the payment was made with an external wallet.
 <PayButton
   invoice="lnbc..."
   onPaid={(response) => console.log("Paid!", response.preimage)}
@@ -223,6 +224,10 @@ onModalClosed(() => console.log("Modal closed"));
 // Unsubscribe when done
 unsubscribe();
 ```
+
+## External Wallets
+
+Bitcoin Connect payment modal / payment button supports both connecting a wallet, and paying with an external wallet. For external wallet payments, checking if the payment was made externally MUST be handled by the application (for example, using LNURL-verify if a payment was made to a lightning address, or if the app backend has an endpoint to check the status of the payment, use that).
 
 ## Referenced files
 
