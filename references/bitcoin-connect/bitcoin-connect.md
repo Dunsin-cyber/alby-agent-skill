@@ -12,6 +12,14 @@ Install the npm package `@getalby/bitcoin-connect@^3.0.0`
 
 Install the npm package `@getalby/bitcoin-connect-react@^3.0.0`
 
+**WebLN Types:**
+
+Install `@webbtc/webln-types` as a dev dependency and create a `webln-types.d.ts` with the following content:
+
+```ts
+/// <reference types="@webbtc/webln-types" />
+```
+
 **CDN (HTML-only, no build step):**
 
 ```html
