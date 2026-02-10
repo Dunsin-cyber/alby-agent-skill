@@ -4,6 +4,10 @@
 
 Install the NPM package `@getalby/sdk`. The latest version is 7.0.0.
 
+### NodeJS
+
+Make sure to use at least version 22 (Native WebSocket client implementation required).
+
 ## Connection Secret
 
 To interact with a wallet you need a NWC connection string (Connection Secret) which gives permissioned access to the user's wallet. It must be handled like a secure API key, unless explicitly specified it's a public, receive-only connection secret.
