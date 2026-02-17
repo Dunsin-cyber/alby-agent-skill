@@ -44,22 +44,21 @@ Alby Agent skill has the knowledge to create dummy wallets for testing. You can 
 
 #### Listen to received payments and send a payment to a lightning address with USD amounts
 
-> Create a Typescript console app that when receives a notification of an incoming payment, sends $0.10 USD to <hello@getalby.com>. The NWC_URL is in the .env file.
+> Use the Alby Bitcoin Payments Agent Skill to create a Typescript console app that when receives a notification of an incoming payment, sends $0.10 USD to <hello@getalby.com>. The NWC_URL is in the .env file.
 
 <img width="699" height="496" alt="image" src="https://github.com/user-attachments/assets/66c7dd1f-54ae-4f5d-9830-dd032cfb9e1b" />
 
 #### Conditionally receive payments (NOTE: only supported by Alby Hub)
 
-> Create a Typescript console app that creates a hold invoice of $1 and asks the user to provide a lightning address and choose heads or tails. Once the hold invoice is accepted, flip a coin. If the user guessed correctly, cancel the hold invoice and pay the user $1 to their lightning address. If the user guessed incorrectly, settle the hold invoice. The NWC_URL is in the .env file.
+> Use the Alby Bitcoin Payments Agent Skill to create a Typescript console app that creates a hold invoice of $1 and asks the user to provide a lightning address and choose heads or tails. Once the hold invoice is accepted, flip a coin. If the user guessed correctly, cancel the hold invoice and pay the user $1 to their lightning address. If the user guessed incorrectly, settle the hold invoice. The NWC_URL is in the .env file.
 
 <img width="947" height="654" alt="image" src="https://github.com/user-attachments/assets/530fccff-33fe-4e68-8998-20f3649cfe7c" />
-
 
 ### Frontend Apps
 
 #### Streamer QR page with payment notifications
 
-> Create a single page HTML app that listens to incoming payments, and each time one comes in, shows a confetti animation and the payment amount and message. It should also have a QR code of the receiving lightning address that should be displayed on the corner of the screen so people watching can easily send payments. When I first open the page it should prompt me for a NWC connection secret so it can connect to my wallet to listen for payments, and also extract the lightning address from the NWC connection secret for the QR code.
+> Use the Alby Bitcoin Payments Agent Skill to create a single page HTML app that listens to incoming payments, and each time one comes in, shows a confetti animation and the payment amount and message. It should also have a QR code of the receiving lightning address that should be displayed on the corner of the screen so people watching can easily send payments. When I first open the page it should prompt me for a NWC connection secret so it can connect to my wallet to listen for payments, and also extract the lightning address from the NWC connection secret for the QR code.
 
 <img width="1432" height="806" alt="image" src="https://github.com/user-attachments/assets/979a3034-99ac-4481-8e32-9750486eb996" />
 
@@ -67,11 +66,11 @@ Alby Agent skill has the knowledge to create dummy wallets for testing. You can 
 
 #### Example test for a backend or console app
 
-> Create a Typescript console app where Alice creates an invoice and Bob pays it. Write tests for it using jest.
+> Use the Alby Bitcoin Payments Agent Skill to create a Typescript console app where Alice creates an invoice and Bob pays it. Write tests for it using jest.
 
 #### Example test for a frontend app (vitest + Playwright)
 
-> Create a Vite Typescript React app where a user can connect their wallet and then purchase fake cat pictures (simple canvas art) with a single click. Each picture costs 5000 sats. Show the total the shop has earned and their remaining stock of cat pictures. There should only be 21. Write tests for the app using vitest and playwright. Also take screenshots and review the screenshots.
+> Use the Alby Bitcoin Payments Agent Skill to create a Vite Typescript React app where a user can connect their wallet and then purchase fake cat pictures (simple canvas art) with a single click. Each picture costs 5000 sats. Show the total the shop has earned and their remaining stock of cat pictures. There should only be 21. Write tests for the app using vitest and playwright. Also take screenshots and review the screenshots.
 
 ## Development
 
