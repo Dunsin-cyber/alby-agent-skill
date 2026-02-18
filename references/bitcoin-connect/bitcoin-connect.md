@@ -78,6 +78,7 @@ import { launchPaymentModal } from "@getalby/bitcoin-connect";
 
 const { setPaid } = launchPaymentModal({
   invoice: "lnbc...", // BOLT-11 invoice
+  // NOTE: onPaid only fires for internal payments
   onPaid: (response) => {
     console.log("Payment preimage:", response.preimage);
   },
@@ -159,6 +160,7 @@ init({ appName: "My App" });
 // the `payment` property can also be set in case the payment was made with an external wallet.
 <PayButton
   invoice="lnbc..."
+  // NOTE: onPaid only fires for internal payments
   onPaid={(response) => console.log("Paid!", response.preimage)}
 />
 
@@ -170,6 +172,7 @@ init({ appName: "My App" });
 // Inline payment flow (no modal)
 <Payment
   invoice="lnbc..."
+  // NOTE: onPaid only fires for internal payments
   onPaid={(response) => console.log("Paid!", response.preimage)}
 />
 ```
