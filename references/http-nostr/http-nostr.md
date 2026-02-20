@@ -30,5 +30,5 @@ If the user wants total sovereignty, they can run the bridge on their own infras
 To implement features using this bridge, refer to the strict TypeScript definitions and domain-specific guides below:
 
 - **[TypeScript Definitions (`index.d.ts`)](./index.d.ts)**: Contains the exact request and response interfaces for all endpoints. **Always read this first**.
-- **[NIP-47 Wallet Actions](./http-nostr/nip47-wallet-actions.md)**: Methods for Lightning wallet operations, including fetching capabilities (`/nip47/info`), sending payments (`/nip47`), and setting up webhook notifications (`/nip47/notifications`).
-- **[General Nostr Events](./http-nostr/general-nostr-events.md)**: Methods to publish arbitrary events (`/publish`), subscribe to custom filters (`/subscriptions`), and clean up active database subscriptions (`DELETE /subscriptions/:id`).
+- **[NIP-47 Wallet Actions](./nip47-wallet-actions.md)**: Methods for Lightning wallet operations, including fetching capabilities (`/nip47/info`), sending payments (`/nip47`), and setting up webhook notifications (`/nip47/notifications`).
+- **[General Nostr Events](./general-nostr-events.md)**: Methods to publish arbitrary events (`/publish`), subscribe to custom filters (`/subscriptions`), and clean up active database subscriptions (`DELETE /subscriptions/:id`).

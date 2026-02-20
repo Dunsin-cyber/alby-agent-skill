@@ -24,7 +24,7 @@ When the user says to use "JS" or "Javascript" or "NodeJS" or something similar,
 
 ## Environment Constraints
 - **Persistent (Node.js/VPS/Docker):** Use standard `client.subscribeNotifications()` (WebSockets).
-- **Serverless (Vercel/Lambda):** WebSockets are NOT supported. You MUST use the [HTTP-Nostr Webhook API](./references/http-nostr.md) via `https://api.getalby.com/nwc`. Do not instruct the user to self-host databases or Go servers unless explicitly requested.
+- **Serverless (Vercel/Lambda):** WebSockets are NOT supported. You MUST use the [HTTP-Nostr Webhook API](./references/http-nostr/http-nostr.md) via `https://api.getalby.com/nwc`. Do not instruct the user to self-host databases or Go servers unless explicitly requested.
 
 ## Imports
 
@@ -52,4 +52,4 @@ It is recommended to write tests so that the agent can test its own work and fix
 
 ## Production Wallet
 
-If they do not have a wallet yet [here are some options](./references/production-wallets.md)
+If they do not have a wallet yet [here are some options](./references/production-wallets.md).
